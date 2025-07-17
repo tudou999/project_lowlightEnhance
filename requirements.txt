@@ -1,0 +1,36 @@
+# requirements
+# Usage: pip install -r requirements.txt
+
+# Base ------------------------------------------------------------------------
+gitpython>=3.1.30
+matplotlib>=3.3
+numpy>=1.23.5
+opencv-python>=4.5.2.54
+pillow>=10.3.0
+psutil
+PyYAML==6.0
+requests>=2.32.2
+scipy>=1.4.1
+thop>=0.1.1
+torch>=1.8.0
+torchvision>=0.9.0
+tqdm>=4.66.3
+ultralytics>=8.2.34
+
+# Plotting --------------------------------------------------------------------
+pandas>=1.1.4
+seaborn>=0.11.0
+
+# Export ----------------------------------------------------------------------
+scikit-learn==1.0  # CoreML quantization
+
+# Deploy ----------------------------------------------------------------------
+setuptools>=70.0.0 # Snyk vulnerability fix
+
+# Extra -----------------------------------------------------------------------
+natsort==8.1.0
+# scikit-image==0.18.1
+scikit-image
+lpips==0.1.4
+kmeans_pytorch
+
